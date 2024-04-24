@@ -12628,3 +12628,7 @@ textarea.form-control-lg {
 body, html {
   min-height: 100vh;
 }
+
+.carousel-indicators > li[data-bs-target]::marker {
+  font-size: 0;
+}
